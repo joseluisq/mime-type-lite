@@ -6,7 +6,7 @@
 
 char *default_mime_type = "text/plain";
 
-mime_types_map_t meme_types[] = {
+mime_types_map_t mime_types_map[] = {
 	{".txt", "text/plain"},
 	{".css", "text/css"},
 	{".htm", "text/html"},
@@ -49,7 +49,7 @@ static const char *get_mime_type_by_filename(char *filename)
 
 	if (dot)
 	{
-		mime_types_map_t *map = meme_types;
+		mime_types_map_t *map = mime_types_map;
 
 		while (map->extension)
 		{
