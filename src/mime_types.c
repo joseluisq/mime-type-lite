@@ -43,8 +43,6 @@ mime_types_map_t meme_types[] = {
 	{NULL, NULL},
 };
 
-static napi_ref on_fatal_exception;
-
 static const char *get_mime_type_by_filename(char *filename)
 {
 	char *dot = strrchr(filename, '.');
