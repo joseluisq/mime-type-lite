@@ -1,5 +1,4 @@
-const { get_mime_type } = require('../lib')
-
+const { get_mime_type } = require('../')
 
 const types = [
   'text/plain', 'text/css', 'text/html', 'text/html', 'image/png', 'image/jpeg', 'image/jpeg',
