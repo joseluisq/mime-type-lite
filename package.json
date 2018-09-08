@@ -1,0 +1,26 @@
+{
+  "name": "mime-type-lite",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "joseluisq/mime-type-lite",
+  "license": "MIT",
+  "author": {
+    "name": "José Luis Quintana",
+    "url": "http://git.io/joseluisq"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "install": "node-gyp-build",
+    "prebuild": "prebuildify --napi",
+    "test": "node test/test.spec.js"
+  },
+  "dependencies": {
+    "napi-macros": "^1.8.1",
+    "node-gyp-build": "^3.4.0"
+  },
+  "devDependencies": {
+    "prebuildify": "^2.8.0"
+  }
+}

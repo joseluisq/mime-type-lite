@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "node_api.h": "c",
+    "stdbool.h": "c",
+    "stdlib.h": "c",
+    "stdio.h": "c",
+    "napi-macros.h": "c",
+    "node_api_types.h": "c",
+    "mime_types.h": "c"
+  }
+}
