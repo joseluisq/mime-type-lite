@@ -8,9 +8,6 @@
     "name": "José Luis Quintana",
     "url": "http://git.io/joseluisq"
   },
-  "engines": {
-    "node": ">= 10"
-  },
   "scripts": {
     "install": "node-gyp-build",
     "prebuild": "prebuildify --napi",
